@@ -1,0 +1,95 @@
+html {
+    --cor1: #f6f9f9;
+    --cor2: #FFFFFF;
+
+    /* NORD THEME VARIABLES - https://www.nordtheme.com/docs/colors-and-palettes */
+    /* polar night */
+    /*--nord0: #2e3440;
+    --nord1: #b1b7c4;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    */
+    /* snow storm */
+    /*--nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    */
+    /* forst */
+    /*--nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    */
+    /* aurora */
+    /*--nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+    */
+}
+
+/*Body*/
+
+body {
+    margin: 0;
+    text-decoration: none;
+    background-color: var(--cor1);
+    font-family: "Varela Round", sans-serif;
+  }
+
+
+/*Header*/
+
+header {
+    padding: 0.05rem 0;
+  }
+
+nav {
+    width: 59%;
+    margin: auto;
+    font-weight: 300;
+}
+
+nav h2 {
+    width: 70%;
+}
+
+/*Main*/
+main {
+    text-decoration: none;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main article{
+    width: 70%;
+    background-color: var(--cor2);
+    box-shadow: rgba(11, 78, 211, 0.2) 1px 1px 1px 1px;
+    padding: 3rem 1rem;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+main article div{
+
+    margin-bottom: 0.5em;
+    width: 90%;
+    margin: auto;
+}
+
+main article div h6 li {
+    text-decoration: none;
+}
+
+main aside {
+    padding: 5rem 1rem;
+    min-width: 20rem;
+}
+
+main aside li {
+    padding: 0.5rem;
+    text-decoration: none;
+}
