@@ -1,6 +1,6 @@
 html {
-    --cor1: #f6f9f9;
-    --cor2: #FFFFFF;
+    --cor1: #f8f8f8;
+    --cor2: #ffffff;
 
     /* NORD THEME VARIABLES - https://www.nordtheme.com/docs/colors-and-palettes */
     /* polar night */
@@ -46,19 +46,18 @@ header {
   }
 
 nav {
-    width: 59%;
+    width: 80%;
     margin: auto;
-    font-weight: 300;
 }
 
 nav h2 {
-    width: 70%;
+    width: 80%;
 }
 
 /*Main*/
 main {
     text-decoration: none;
-    width: 60%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-direction: row-reverse;
@@ -67,29 +66,40 @@ main {
 main article{
     width: 70%;
     background-color: var(--cor2);
-    box-shadow: rgba(11, 78, 211, 0.2) 1px 1px 1px 1px;
+    box-shadow: rgba(11, 78, 211, 0.2) 0.5px 0.5px 0.5px 0.5px;
     padding: 3rem 1rem;
     margin: 1rem 0;
     text-align: justify;
 }
 
 main article div{
-
+    font-weight: none;
     margin-bottom: 0.5em;
     width: 90%;
     margin: auto;
 }
 
 main article div h6 li {
+    list-style-type: none;
+}
+
+main article div h6 li a {
     text-decoration: none;
+    font-weight: none;
 }
 
 main aside {
+    list-style-type: none;    
     padding: 5rem 1rem;
     min-width: 20rem;
 }
 
 main aside li {
     padding: 0.5rem;
+}
+
+main aside li a {
     text-decoration: none;
+    font-weight: none;
+    font-size: 15px;
 }
